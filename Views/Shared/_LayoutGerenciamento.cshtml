@@ -1,0 +1,103 @@
+﻿
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elysium Beauty</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/lib/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="~/lib/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/css/index.css">
+    <link rel="stylesheet" href="~/css/submenu.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <br />
+        <!-- Logo -->
+        <h1 class="section-title">
+            <a href="/Home/Index"><img src="~/images/Home/Bh.png" alt="About-Image" style="width: 100px; height: 100px; border-radius:100%"></a>
+        </h1>
+        <!-- Logo End -->
+        <!-- Navbar -->
+        <nav class="navbar" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+            <span style="display: flex; align-items: center; margin-right: 20px;">
+                <i class="fas fa-home fa-lg" aria-hidden="true" style="color:#612846"></i>
+                <a href="/Home/Index" style="margin-left: 10px;">Início</a>
+            </span>
+                      
+
+            <div class="dropdown" style="position: relative; display: inline-block;">
+                <span style="display: flex; align-items: center; margin-right: 20px;">
+                    <i class="fa fa-user" aria-hidden="true" style="color: #612846;"></i>
+                    <a href="/Usuario/Login" style="margin-left: 10px;">Login</a>
+                </span>
+                <div class="dropdown-content"
+                     style="display: none; position: absolute; background-color: #612846; width: 200px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; padding: 8px; border-radius: 3%;">
+                    <a href="/Usuario/Index"
+                       style="padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px; color:white !important;">
+                        <i class="fa fa-users" aria-hidden="true" style="margin-right: 8px;"></i>
+                        Usuarios
+                    </a>
+                    <a href="/Agendamento/Index"
+                       style="padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px; color:white !important;">
+                        <i class="fa fa-calendar" aria-hidden="true" style="margin-right: 8px;"></i>
+                        Agendamento Admin
+                    </a>
+                    <a href="/Agendamento/AgendamentoUser"
+                       style="padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px; color:white !important;">
+                        <i class="fa fa-calendar" aria-hidden="true" style="margin-right: 8px;"></i>
+                        Agendamento User
+                    </a>
+                    <a href="/Agendamento/CadastroAgendamento"
+                       style="padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px; color:white !important;">
+                        <i class="fa fa-clipboard" aria-hidden="true" style="margin-right: 8px;"></i>
+
+                        Cadastro Agendamento
+                    </a>
+                    <a href="/Servico/Index"
+                       style="padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px; color:white !important;">
+                        <i class="fas fa-gavel fa-lg" aria-hidden="true" style="color:white"></i>
+
+                        Serviço
+                    </a>
+                    <a href="#logout"
+                       style="padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px; color:white !important; ">
+                        <i class="fa fa-file" aria-hidden="true" style="margin-right: 8px;"></i>
+                        Relatório
+                    </a>
+                </div>
+            </div>
+        </nav>       
+
+    </header>
+
+    <div>
+        <main>
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    <script>
+        // Script to handle the dropdown functionality
+        document.querySelector('.dropdown').addEventListener('mouseover', function () {
+            this.querySelector('.dropdown-content').style.display = 'block';
+        });
+
+        document.querySelector('.dropdown').addEventListener('mouseout', function () {
+            this.querySelector('.dropdown-content').style.display = 'none';
+        });
+    </script>
+</body>
+</html>

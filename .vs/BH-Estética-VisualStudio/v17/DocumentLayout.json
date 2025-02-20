@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Aluno Noite\\Documents\\BH-Est\u00E9tica-VisualStudio\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{DF1474D2-FF5F-4B3F-90A4-1058174E0394}|BH-Est\u00E9tica-VisualStudio.csproj|c:\\users\\aluno noite\\documents\\bh-est\u00E9tica-visualstudio\\views\\shared\\_layoutgerenciamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DF1474D2-FF5F-4B3F-90A4-1058174E0394}|BH-Est\u00E9tica-VisualStudio.csproj|solutionrelative:views\\shared\\_layoutgerenciamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF1474D2-FF5F-4B3F-90A4-1058174E0394}|BH-Est\u00E9tica-VisualStudio.csproj|c:\\users\\aluno noite\\documents\\bh-est\u00E9tica-visualstudio\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{DF1474D2-FF5F-4B3F-90A4-1058174E0394}|BH-Est\u00E9tica-VisualStudio.csproj|solutionrelative:wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,33 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "main.css",
-              "DocumentMoniker": "C:\\Users\\Aluno Noite\\Documents\\BH-Est\u00E9tica-VisualStudio\\wwwroot\\css\\main.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\main.css",
-              "ToolTip": "C:\\Users\\Aluno Noite\\Documents\\BH-Est\u00E9tica-VisualStudio\\wwwroot\\css\\main.css",
-              "RelativeToolTip": "wwwroot\\css\\main.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-01T12:48:00.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_LayoutGerenciamento.cshtml",
-              "DocumentMoniker": "C:\\Users\\Aluno Noite\\Documents\\BH-Est\u00E9tica-VisualStudio\\Views\\Shared\\_LayoutGerenciamento.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutGerenciamento.cshtml",
-              "ToolTip": "C:\\Users\\Aluno Noite\\Documents\\BH-Est\u00E9tica-VisualStudio\\Views\\Shared\\_LayoutGerenciamento.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_LayoutGerenciamento.cshtml",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABgAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-01T12:27:47.896Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }
